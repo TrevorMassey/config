@@ -24,6 +24,15 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
+echo $PWD
+source ~/.git-prompt.sh
+PS1='\[\e[33m\]$(__git_ps1)\[\e[m\]\[\e[32m\]\w\[\e[m\]>'
+
+
 source ~/.aliases
 
 export EDITOR=nvim
+
+# Go stuff
+export PATH=$PATH:/usr/local/go/bin
+

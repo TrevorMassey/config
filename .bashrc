@@ -26,7 +26,8 @@ unset rc
 
 echo $PWD
 source ~/.git-prompt.sh
-PS1='\[\e[33m\]$(__git_ps1)\[\e[m\]\[\e[32m\]\w\[\e[m\]>'
+# https://phoenixnap.com/kb/change-bash-prompt-linux
+PS1='\[\e[1;33m\]$(__git_ps1)\[\e[m\]\[\e[1;36m\]\w\[\e[m\]>'
 
 
 source ~/.aliases

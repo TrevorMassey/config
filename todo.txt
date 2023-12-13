@@ -1,1 +1,4 @@
--fix default indentation for Go programs
+
+neovim configs:
+- fix default indentation for Go programs
+

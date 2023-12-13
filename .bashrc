@@ -25,3 +25,5 @@ fi
 unset rc
 
 source ~/.aliases
+
+export EDITOR=nvim
